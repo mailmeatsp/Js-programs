@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es6 Feature</title>
+</head>
+<body>
+     <script>
+function assa(n){
+    var space = n - 1; 
+      
+      // run loop (parent loop)  
+      // till number of rows 
+      for (var i = 0; i < n; i++) 
+      { 
+          // loop for initially space,  
+          // before star printing 
+          for (var j = 0; j < space; j++) 
+          document.write(" "); 
+    
+          // Print i+1 stars 
+          for (var j = 0; j <= i; j++) 
+          document.write("* "); 
+    
+              document.write("<br>"); 
+          space--; 
+      } 
+    
+      // Repeat again in 
+      // reverse order 
+      space = 0; 
+    
+    }
+    assa();
+ 
+        //  var x = 12;
+        //  function add(){
+            
+            
+        //     y = 4;
+        //     x=y;
+        //     z = x+y;
+        //     console.log(z);
+            
+        //  }
+        //  console.log(x);
+        //  add();
+        //  console.log(x);
+        //  console.log(x);
+        //  var y,z;
+         
+         
+        
+    //========  1. factorial ========
+
+    // function factor(){
+    //     const input = document.getElementById("s").value;
+    //     let fact = 1;
+    //     for(let i=1; i<=input; i++){
+    //         fact = fact * i;
+    //     }
+    //     return document.getElementById("factorial").innerHTML = fact;
+    // }
+    
+    //===== 2. Concate two strings ======
+
+    // function concat(){
+    //     let str1 = "santhosh";
+    //     let str2 = "kumar";
+
+    //     const concating = str1.concat(str2);
+        
+    //     return document.getElementById("factorial").innerHTML = concating;
+    //}
+
+    //====== 3. total Vowels countcin a string =========
+
+    // function vowels(){
+    //     const input = document.getElementById("v").value;
+    //     let count = 0;
+    //     let vowelTotal = '';
+    //     for(let i=0; i<input.length; i++){
+    //         if(input.charAt(i).match(/[a-zA-Z]/)){
+    //             if(input.charAt(i).match(/[aeiouAEIOU]/)){   // && input.charAt(i) === input.charAt(i-1) its consocutive charecters in a string
+    //                 vowelTotal = vowelTotal + input.charAt(i);
+    //                 count++;
+    //             }
+    //         }
+    //     }
+    //     document.getElementById("counter").innerHTML = count;
+    //     document.getElementById("vowel").innerHTML = vowelTotal;
+    // }
+    
+
+    // ========= 4. Conformation password with validation ========
+
+    // function validate(){
+    //     debugger;
+    //     const password = document.getElementById("pass").value;
+    //     const conformPass = document.getElementById("conformPass").value;
+
+    //     if(password != conformPass){
+    //         document.getElementById("err").innerHTML = "password should not matching";
+    //         return false;
+    //     }
+    //     else{
+    //         alert("its correct");
+    //     }
+
+    // }
+
+    // ===== 5. Swap number ======
+
+        // var x,y,temp;
+        // x=2;
+        // y=3;
+        // temp=x;
+        // x=y;
+        // y=temp;
+        // console.log(temp);
+        // console.log(x);
+        // console.log(y);
+
+    // ====== 6. Leap year ======
+
+    // function leapYear(){
+            
+    //     var x;
+    //     x=2020;
+    //     if( (0 == x % 4) && (0 != x % 100) || (0 == x % 400) )
+    //     {
+    //         alert(x+" is a leap year: Congratulations"); 
+    //     }
+    //     else
+    //     {
+    //         alert(x+" is not a leap year: Sorry");  
+    //     }
+    // }
+    // leapYear();
+
+
+    
+
+  </script>
+</body>
+</html>

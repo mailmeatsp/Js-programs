@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+       
+       for (var i = 0; i <= 5; i++)
+            {
+                for (var j = 1; j <= 5; j++)
+                {
+                    if(i > j)
+                        document.write("*"+" ");                    
+                    else
+                        document.write(" "+"<br>");
+                }
+        }
+        for (var i = 0; i < 5; i++)
+            {
+                for (var j = 1; j <= 5; j++)
+                {
+                    if (i < j)
+                        document.write("*"+" ");
+                    else
+                    document.write(" "+"<br>");
+                }
+            }
+
+            for (var i = 5; i >= 0; i--){
+                for (var j = 0; j < 4; j++){
+                    if (i > j)
+                        document.write("<br>"+" ");
+                    else
+                        document.write("*");
+                }  
+            }
+            
+            
+        
+
+        var fram = require("word-frame-star");
+        fram.printWithBorders('well');
+        frame.print('hai');
+
+        // Tables
+        function table(num){
+            for(let i=1; i<=10; i++){
+               var result = num + " * " + i + " = " + num * i;
+                console.log(result);
+            }
+        }
+        table(8);
+
+        // Adding 2 arrays
+
+        var arr1 = [1,2,4];
+        var arr2 = [9,8,6];
+        var arr3 = arr1.concat(arr2);
+
+        console.log(arr3);
+
+        // Fibbonaci numbers
+
+        var a = 0, a1 = 1, a2 = 0;
+        for(var i=0; i<10; i++){
+            a2 = a + a1;
+            a = a1;
+            a1 = a2;
+            console.log(a2);
+        }
+
+    </script>
+</body>
+</html>
